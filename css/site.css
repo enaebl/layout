@@ -1,0 +1,439 @@
+html,
+body {
+    height: 100%;
+}
+
+.wrap {
+    min-height: 100%;
+    height: auto;
+    margin: 0 auto -60px;
+    padding: 0 0 60px;
+}
+
+.wrap > .container {
+    padding: 70px 15px 20px;
+}
+
+.footer {
+    height: 60px;
+    background-color: #f5f5f5;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+}
+
+.jumbotron {
+    text-align: center;
+    background-color: transparent;
+}
+
+.jumbotron .btn {
+    font-size: 21px;
+    padding: 14px 24px;
+}
+
+.not-set {
+    color: #c55;
+    font-style: italic;
+}
+
+/* add sorting icons to gridview sort links */
+a.asc:after, a.desc:after {
+    position: relative;
+    top: 1px;
+    display: inline-block;
+    font-family: 'Glyphicons Halflings';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1;
+    padding-left: 5px;
+}
+
+a.asc:after {
+    content: "\e151";
+}
+
+a.desc:after {
+    content: "\e152";
+}
+
+.sort-numerical a.asc:after {
+    content: "\e153";
+}
+
+.sort-numerical a.desc:after {
+    content: "\e154";
+}
+
+.sort-ordinal a.asc:after {
+    content: "\e155";
+}
+
+.sort-ordinal a.desc:after {
+    content: "\e156";
+}
+
+.grid-view td {
+    white-space: nowrap;
+}
+
+.grid-view .filters input,
+.grid-view .filters select {
+    min-width: 50px;
+}
+
+.hint-block {
+    display: block;
+    margin-top: 5px;
+    color: #999;
+}
+
+.error-summary {
+    color: #a94442;
+    background: #fdf7f7;
+    border-left: 3px solid #eed3d7;
+    padding: 10px 20px;
+    margin: 0 0 15px 0;
+}
+
+/* align the logout "link" (button in form) of the navbar */
+.nav li > form > button.logout {
+    padding: 15px;
+    border: none;
+}
+
+@media(max-width:767px) {
+    .nav li > form > button.logout {
+        display:block;
+        text-align: left;
+        width: 100%;
+        padding: 10px 15px;
+    }
+}
+
+.nav > li > form > button.logout:focus,
+.nav > li > form > button.logout:hover {
+    text-decoration: none;
+}
+
+.nav > li > form > button.logout:focus {
+    outline: none;
+}
+
+.site-index {
+    padding-top: 30px;
+}
+
+.margin-top {
+    margin-top: 10px;
+}
+
+.search-result {
+    margin-bottom: 20px;
+}
+
+.link-url {
+    font-size: 14px;
+    color: #006699;
+    cursor: pointer;
+}
+
+.link-url:hover {
+    text-decoration: none;
+}
+
+.link-display-url {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #078;
+    font-weight: bold;
+}
+
+.link-name {
+    margin-top: -10px;
+    font-size: 12px;
+    color: #000;
+    font-style: italic;
+}
+
+.btn-open-link, .btn-bookmark-link, .btn-reader-link {
+    color: #fff;
+    padding: 1px 3px;
+    font-size: 11px;
+}
+
+.btn-open-link:hover, .btn-bookmark-link:hover, .btn-reader-link:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+.btn-open-link {
+    background-color: #006699;
+}
+
+.btn-open-link:hover {
+    background-color: #0d3349;
+}
+
+.btn-bookmark-link {
+    background-color: #f89406;
+}
+
+.btn-bookmark-link:hover {
+    background-color: #9D7000;
+}
+
+.btn-reader-link {
+    background-color: #c55;
+}
+
+.btn-reader-link:hover {
+    background-color: #ac2925;
+}
+
+svg path,
+svg rect{
+    fill: #078;
+}
+
+.message-text {
+    margin-bottom: 10px;
+    font-size: 12px;
+    color: #999;
+}
+
+.separator {
+    width: 100%;
+    height: 1px;
+    border-bottom: 1px solid #eee;
+    margin-bottom: 10px;
+}
+
+.lbl-current-pages {
+    margin: -10px 0 10px 0;
+}
+
+.msg {
+    font-size: 12px;
+    color: #0d3349;
+}
+
+.cmb-items-per-page {
+    border: 1px solid #ccc;
+    width: 100px;
+    height: 20px;
+    cursor: pointer;
+    font-size: 12px;
+    padding: 2px 0 1px 1px;
+}
+
+.margin-bottom {
+    margin-bottom: 20px;
+}
+
+.embed-submit-field {
+    position: relative;
+}
+
+.embed-submit-field button {
+    position: absolute;
+    right: 2px;
+    top: 2px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    border: none;
+    background: #ededed;
+    border-radius: 3px;
+    padding: 5px 10px;
+    transition: all .2s;
+}
+
+.remote-content {
+    border: none!important;
+    box-shadow: none!important;
+}
+
+.img-loading {
+    height: 25px;
+    width: auto;
+}
+
+.w3-bar-block a.w3-bar-item {
+    margin-left: 15px;
+}
+
+.w3-bar-block a.w3-bar-item:hover {
+    text-decoration: none;
+    color: #f5f5f5!important;
+}
+
+.app-logo {
+    margin-left: 10px;
+}
+
+#page-content-wrapper {
+    margin-top: -11px;
+}
+
+.nav-tabs > li a {
+    /*border-top: 3px solid transparent;*/
+}
+
+.nav-tabs > li.active a {
+    /*border-top: 3px solid #e39f2f;*/
+}
+
+.sort-icon {
+    font-size: 11px!important;
+}
+
+th a {
+    text-decoration: none!important;
+}
+
+.btn-bottom {
+    border: 1px solid #979797;
+    background-color: #d8d8d8;
+    height: 25px;
+    padding: 0 25px!important;
+    font-size: 12px!important ;
+    color: #585858;
+    margin-right: 30px;
+}
+
+.form-group .btn {
+    width: 100%;
+}
+
+.colorpicker {
+    z-index: 99999!important;
+}
+
+.badge {
+    border-radius: 0!important;
+    padding-top: 4px!important;
+}
+
+#row-main {
+    overflow-x: hidden;
+}
+
+#content {
+    transition: width 0.3s ease;
+}
+
+#right-sidebar {
+    transition: margin 0.3s ease;
+}
+
+@media (min-width: 992px) {
+    .collapsed {
+        display: block;
+        margin-right: -25%;
+    }
+}
+
+.table td {
+    padding: 3px!important;
+}
+
+.indeterminate_checkbox {
+    height: 20px;
+    width: 20px;
+    background-image: url(../img/indeterminate_checkbox.png)!important;
+} 
+
+.operation-result-text {
+    margin-top: 10px; font-size: 11px;
+}
+
+.btn-label, .btn-label:active {
+    background-image: url(../img/btn-label-up-down.png);
+    background-position: center right;
+    background-repeat: no-repeat;
+}
+
+label {
+    font-weight: normal!important;
+}
+
+.control-checkbox {
+    padding-right: 10px;
+}
+
+.bootstrap-tagsinput {
+    overflow-y: scroll;
+    height:50px;
+    max-height:50px;
+    border: 1px dashed #ccc;
+    padding: 3px;
+}
+
+.remove-label {
+    font-size: 10px;
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.navbar {
+    border-radius: 0;
+}
+
+.navbar-brand {
+    padding-top: 10px;
+}
+
+.ql-editor {
+    display: none;
+}
+
+.ql-toolbar, #editor-container {
+    border: none!important;
+}
+
+.navbar-right {
+    margin-top: 9px;
+}
+
+#rec-details {
+    margin-left: 20px;
+}
+
+.rec-time {
+    color: red;
+}
+
+.rec-desc {
+    font-size: 12px;
+    position: absolute;
+    margin-top: -5px;
+    clear: both;
+}
+
+@media (min-width: 768px) {
+    .navbar > .container .navbar-brand,
+    .navbar > .container-fluid .navbar-brand {
+        margin-left: 0!important;
+    }
+    #standalone-container {
+        margin-left: 12px;
+    }
+}
+
+#openNav {
+    display: none;
+    color: #fff;
+    height: 50px;
+    background-color: #343434;
+    padding-top: 15px;
+}
+
+.timeline {
+    margin-top: 20px;
+}
+
+.timeline-sep::after, .timeline-sep:after {
+    content: 's';
+    width: 42px;
+    height: 25px;
+    background-image: url(../img/sep.png);
+}
